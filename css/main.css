@@ -354,7 +354,7 @@ audio {
 }
 .block11 p {
 	/* 删除前面的这个CSS参数 */
-	margin-top: -280px;
+	margin-top: -180px;
 	z-index: 1;
 	font-size: 3.5vh;
 	font-weight: 550;
