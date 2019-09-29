@@ -9,6 +9,7 @@
 	height: 100%;
 }
 
+
 #page18,
 #page19 {
 	position: relative;
@@ -25,52 +26,50 @@
 .text1,
 .text2,
 .text3,
-.text4,
-.text5,
-.text6,
-.text7,
-.text8 {
+.text4 {
 	position: absolute;
 }
 
 .pic1 {
 	top: 17%;
-	left: 5%;
+	left: 3.5%;
 }
 
 .pic2 {
 	top: 47%;
-	left: 50%;
+	left: 51.5%;
 }
 
 .pic3 {
 	top: 47%;
-	left: 5%;
+	left: 3.5%;
 }
 
 .pic4 {
 	top: 17%;
-	left: 50%;
+	left: 51.5%;
 }
 
 .pic5 {
-	top: 8%;
-	left: 10%;
+	z-index: 99;
+	top: 7%;
+	left: 9.5%;
 }
 
 .pic6 {
-	top: 50%;
-	left: 10%;
+	top: 46%;
+	left: 9.5%;
 }
 
 .pic7 {
-	top: 8%;
-	left: 10%;
+	z-index: 99;
+	top: 7%;
+	left: 9.5%;
 }
 
 .pic8 {
-	top: 50%;
-	left: 10%;
+	top: 46%;
+	left: 9.5%;
 }
 
 .pic1 img,
@@ -99,27 +98,45 @@
 	height: 140px;
 	width: 170px;
 	text-align: center;
-	color: black;
+	color: white;
 	line-height: 30px;
 	padding-top: 60px;
+	opacity: 0.7;
+}
+
+.text5,
+.text6,
+.text7,
+.text8 {
+	font-size: 15px;
+	letter-spacing: 3px;
+	position: relative;
 }
 
 .text1 {
 	top: 52.9%;
-	left: 5%;
+	left: 3.5%;
 }
 
 .text2 {
 	top: 17.1%;
-	left: 50%;
+	left: 51.5%;
 }
 
 .text3 {
 	top: 17%;
-	left: 5%;
+	left: 3.5%;
 }
 
 .text4 {
 	top: 52.9%;
-	left: 50%;
+	left: 51.5%;
+}
+
+.text5 {
+	top: 13%;
+}
+
+.text7 {
+	top: 13%;
 }
