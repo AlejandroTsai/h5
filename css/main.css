@@ -238,7 +238,7 @@
 	opacity: 0.9;
 }
 
-#page12 .block122{
+#page12 .block122 {
 	line-height: 24px;
 	font-size: 14.5px;
 }
@@ -256,33 +256,37 @@
 
 #pageEnd {
 	position: relative;
+
 }
 
 #pageEnd .blockEnd1 {
 	height: 35px;
-	width: 340px;
+	width: 310px;
 	margin: auto;
 	text-align: center;
-	line-height: 120px;
+	line-height: 35px;
 	position: relative;
-	top: 35%;
+	top: calc(45% - 17.5px);
 	border-radius: 7px;
 	color: white;
 	font-size: 28px;
+	z-index: 998;
+	opacity: 0.9;
 }
 
 #pageEnd .blockEnd2 {
 	height: 20px;
-	width: 340px;
+	width: 170px;
 	margin: auto;
 	text-align: center;
-	line-height: 120px;
+	line-height: 20px;
 	position: relative;
-	top: 24%;
-	left: 24%;
+	top: calc(34% - 10px);
+	left: calc(47% - 85px);
 	border-radius: 7px;
 	color: white;
 	font-size: 15px;
+	z-index: 998;
 }
 
 #pageEnd .blockEnd3 {
@@ -290,7 +294,7 @@
 	width: 20px;
 	margin: auto;
 	text-align: center;
-	line-height: 120px;
+	line-height: 100px;
 	position: relative;
 	top: 41%;
 	left: -37%;
@@ -298,20 +302,22 @@
 	color: white;
 	font-size: 18px;
 	line-height: 20px;
+	z-index: 998;
 }
 
 #pageEnd .blockEnd4 {
 	height: 35px;
-	width: 340px;
+	width: 190px;
 	margin: auto;
 	text-align: center;
-	line-height: 120px;
+	line-height: 35px;
 	position: relative;
-	top: 4%;
-	left: -24%;
+	top: calc(17% - 17.5px);
+	left: calc(0% - 95px);
 	border-radius: 7px;
 	color: white;
 	font-size: 36px;
+	z-index: 998;
 }
 
 #pageEnd .blockEnd5 {
@@ -327,6 +333,7 @@
 	color: white;
 	font-size: 22px;
 	line-height: 24px;
+	z-index: 998;
 }
 
 #pageEnd .blockEnd6 {
@@ -334,13 +341,14 @@
 	width: 340px;
 	margin: auto;
 	text-align: center;
-	line-height: 120px;
+	line-height: 35px;
 	position: relative;
-	top: -22%;
+	top: calc(-8% - 17.5px);
 	left: 6%;
 	border-radius: 7px;
 	color: white;
 	font-size: 25px;
+	z-index: 998;
 }
 
 audio {
@@ -518,7 +526,6 @@ audio {
 }
 
 #muenu {
-	animation: zoomInUp 2s linear 0.5s;
 	background-color: rgb(143, 9, 0);
 	color: rgb(255, 230, 150);
 	position: absolute;
@@ -538,14 +545,17 @@ audio {
 	margin-top: -100%;
 	opacity: .7;
 }
-@keyframes rotate{
-	0%{
+
+@keyframes rotate {
+	0% {
 		transform: rotate(0deg);
 	}
-	100%{
+
+	100% {
 		transform: rotate(360deg);
 	}
 }
+
 /* page4 */
 #page2-5 .block2-5-1,
 #page2-5 .block2-5-1 img {
@@ -599,16 +609,17 @@ audio {
 	top: 68%;
 	left: 62%;
 	letter-spacing: 1px;
+	z-index: 99;
 }
 
 
 
-#page1 .block11 #tiltle{
+#page1 .block11 #tiltle {
 	position: relative;
 	top: -30px;
 }
 
-#page1 .block13 p{
+#page1 .block13 p {
 	position: relative;
 	top: -30px;
 }
