@@ -403,7 +403,7 @@
 							<img src="img/3.jpg" alt="">
 						</div>
 						<br><br>
-						<p>
+						<p id="pC">
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中华大地幅员辽阔，960万平方米的土地，处处风景旖旎，美如画卷，文人墨客多有留笔。近几年，中国绝美的风景也吸引了不少外国摄影师，一起来看看他们镜头中如入画中的中国：
 						</p>
 					</div>
@@ -746,6 +746,7 @@
 					var img4 = document.getElementById("img4");
 					var pA = document.getElementById("pA");
 					var pB = document.getElementById("pB");
+					var pC = doucument.getElementById("pC");
 					//位移小于+-50的不翻页
 					if (moveY < -50) n++;
 					if (moveY > 50) n--;
@@ -825,6 +826,7 @@
 					}
 					if (n == 11) {
 						img3.style.animation = "zoomOutNew 1.5s ease 0s 1 forwards";
+						pC.style.animation = "bounceInUp 3s linear 0s 1 forwards";
 					}
 					if (n == 12) {
 						pic1.style.animation = "bounceInDown 2s linear 0s 1 forwards";
