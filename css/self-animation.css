@@ -450,3 +450,20 @@
 		top: 30%;
 	}
 }
+
+@keyframes biggerA {
+	from {}
+
+	to {
+		width: 40vh;
+		height: 25vh;
+	}
+}
+@keyframes zoomOutNew{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1)
+	}
+}
