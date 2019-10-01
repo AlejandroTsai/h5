@@ -526,6 +526,7 @@ audio {
 }
 
 #muenu {
+	animation: zoomInUp 2s linear 0.5s;
 	background-color: rgb(143, 9, 0);
 	color: rgb(255, 230, 150);
 	position: absolute;
